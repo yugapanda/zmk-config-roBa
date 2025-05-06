@@ -82,7 +82,7 @@
 &kp LEFT_SHIFT  &mt LEFT_ALT NUMBER_0  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 1 SPACE  &lt 3 CAPSLOCK      &kp BACKSPACE  &lt 2 ENTER                             &bt BT_CLR_ALL
             >;
 
-            sensor-bindings = <&inc_dec_kp A B>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         CURSOR {
