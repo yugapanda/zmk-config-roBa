@@ -72,7 +72,7 @@
 &kp LEFT_SHIFT  &mt LEFT_ALT NUMBER_0  &kp LEFT_GUI  &mt LEFT_CONTROL TAB  &lt 2 SPACE  &lt 2 CAPSLOCK      &kp BACKSPACE  &lt 3 ENTER                             &tog 1
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         default_layer_mac {
