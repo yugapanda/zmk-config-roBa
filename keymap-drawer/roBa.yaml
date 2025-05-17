@@ -98,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MCLK'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
