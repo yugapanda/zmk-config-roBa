@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - {t: B, h: bluetooth}
-  - TAB
+  - Sft+Gui+S
   - /
   - N
   - M
@@ -72,7 +72,7 @@ layers:
   - C
   - V
   - {t: B, h: bluetooth}
-  - TAB
+  - Sft+Gui+5
   - /
   - N
   - M
@@ -227,7 +227,3 @@ combos:
   k: Sft+TAB
 - p: [11, 10]
   k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
-- p: [24, 25]
-  k: '='
