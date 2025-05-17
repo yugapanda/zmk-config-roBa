@@ -87,7 +87,7 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        CURSOR {
+        cursor {
             bindings = <
 &kp ESCAPE  &trans          &trans        &trans     &trans                      &trans  &trans     &mkp MCLK       &trans     &trans
 &trans      &trans          &kp UP_ARROW  &trans     &trans  &trans      &trans  &trans  &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &trans
@@ -98,7 +98,7 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        NUM {
+        number {
             bindings = <
 &kp SQT               &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS                                          &kp RIGHT_PARENTHESIS  &none               &none               &none                &trans
 &kp GRAVE             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACE        &kp LC(LA(KP_NUMBER_0))      &kp MINUS  &kp RIGHT_BRACE        &none               &kp LS(UP_ARROW)    &none                &trans
@@ -107,7 +107,7 @@
             >;
         };
 
-        Bluetooth {
+        bluetooth {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
