@@ -95,7 +95,7 @@
 &trans      &trans          &trans        &trans     &trans  &trans      &trans  &trans                                        &trans
             >;
 
-            sensor-bindings = <&none>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         SCROLL {
