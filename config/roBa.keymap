@@ -79,7 +79,7 @@
 
         cursor {
             bindings = <
-&kp ESCAPE  &trans          &trans        &trans     &trans                      &trans  &trans     &mkp MCLK       &trans     &trans
+&kp ESCAPE  &trans          &trans        &trans     &trans                      &trans  &trans     &mkp MCLK       &trans     &kp F12
 &trans      &trans          &kp UP_ARROW  &trans     &trans  &trans      &trans  &trans  &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &trans
 &trans      &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans      &trans  &trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &trans
 &trans      &trans          &trans        &trans     &trans  &trans      &trans  &trans                                        &trans
