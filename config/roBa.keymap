@@ -5,7 +5,6 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 #define MOUSE 2
-#define SCROLL 3
 #define NUM 4
 
 &mt {
