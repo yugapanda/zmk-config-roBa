@@ -2,7 +2,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "config/roBar.keymap"
+      - "config/roBa.keymap"
       - "keymap_drawer.config.yaml"
 
 jobs:
