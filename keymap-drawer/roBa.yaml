@@ -27,7 +27,7 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: Bluetooth}
+  - {t: B, h: bluetooth}
   - TAB
   - /
   - N
@@ -39,10 +39,10 @@ layers:
   - {t: '0', h: LEFT ALT}
   - LEFT GUI
   - {t: CAPSLOCK, h: LEFT CONTROL}
-  - {t: SPACE, h: CURSOR}
-  - {t: TAB, h: CURSOR}
+  - {t: SPACE, h: cursor}
+  - {t: TAB, h: cursor}
   - BACKSPACE
-  - {t: ENTER, h: '4'}
+  - {t: ENTER, h: number}
   - {t: default_layer_mac, h: toggle}
   default_layer_mac:
   - Q
@@ -71,7 +71,7 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: Bluetooth}
+  - {t: B, h: bluetooth}
   - TAB
   - /
   - N
@@ -83,12 +83,12 @@ layers:
   - {t: '0', h: LEFT ALT}
   - LEFT CONTROL
   - {t: CLCK, h: LEFT GUI}
-  - {t: SPACE, h: CURSOR}
+  - {t: SPACE, h: cursor}
   - {t: TAB, h: default_layer_win}
   - BACKSPACE
-  - {t: ENTER, h: '4'}
+  - {t: ENTER, h: number}
   - {t: ▽, type: trans}
-  CURSOR:
+  cursor:
   - ESCAPE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,7 +132,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4':
+  number:
   - ''''
   - '7'
   - '8'
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  Bluetooth:
+  bluetooth:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
