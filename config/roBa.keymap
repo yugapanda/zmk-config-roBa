@@ -4,7 +4,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 2
-#define NUM 3
+#define SCROLL 3
+#define NUM 4
 
 &mt {
     flavor = "balanced";
