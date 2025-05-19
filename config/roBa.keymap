@@ -57,10 +57,10 @@
 
         default_layer_win {
             bindings = <
-&kp Q           &kp W                  &kp E         &kp R                      &kp T                                          &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S                  &kp D         &kp F                      &kp G        &mkp MCLK          &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z           &kp X                  &kp C         &kp V                      &lt 4 B      &kp LS(LG(S))      &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp EQUAL
-&kp LEFT_SHIFT  &mt LEFT_ALT NUMBER_0  &kp LEFT_GUI  &mt LEFT_CONTROL CAPSLOCK  &lt 2 SPACE  &lt 2 TAB          &kp BACKSPACE  &lt 3 ENTER                             &tog 1
+&kp Q           &kp W                  &kp E         &kp R                      &kp T                                      &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A           &kp S                  &kp D         &kp F                      &kp G        &mkp MCLK      &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z           &kp X                  &kp C         &kp V                      &lt 4 B      &none          &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp EQUAL
+&kp LEFT_SHIFT  &mt LEFT_ALT NUMBER_0  &kp LEFT_GUI  &mt LEFT_CONTROL CAPSLOCK  &lt 2 SPACE  &lt 2 TAB      &kp BACKSPACE  &lt 3 ENTER                             &kp LG(LS(S))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -68,10 +68,10 @@
 
         default_layer_mac {
             bindings = <
-&kp Q           &kp W                  &kp E             &kp R              &kp T                                           &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S                  &kp D             &kp F              &kp G        &mkp MCLK           &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z           &kp X                  &kp C             &kp V              &lt 4 B      &kp LS(LG(N5))      &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp EQUAL
-&kp LEFT_SHIFT  &mt LEFT_ALT NUMBER_0  &kp LEFT_CONTROL  &mt LEFT_GUI CLCK  &lt 2 SPACE  &lt 0 TAB           &kp BACKSPACE  &lt 3 ENTER                             &trans
+&kp Q           &kp W                  &kp E             &kp R              &kp T                                      &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A           &kp S                  &kp D             &kp F              &kp G        &mkp MCLK      &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z           &kp X                  &kp C             &kp V              &lt 4 B      &none          &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp EQUAL
+&kp LEFT_SHIFT  &mt LEFT_ALT NUMBER_0  &kp LEFT_CONTROL  &mt LEFT_GUI CLCK  &lt 2 SPACE  &lt 0 TAB      &kp BACKSPACE  &lt 3 ENTER                             &kp LG(LS(N5))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -79,10 +79,10 @@
 
         cursor {
             bindings = <
-&kp ESCAPE  &trans          &trans        &trans     &trans                      &trans  &trans     &mkp MCLK       &trans     &kp F12
-&trans      &trans          &kp UP_ARROW  &trans     &trans  &trans      &trans  &trans  &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &trans
-&trans      &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans      &trans  &trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &trans
-&trans      &trans          &trans        &trans     &trans  &trans      &trans  &trans                                        &trans
+&kp ESCAPE  &trans              &trans            &trans         &trans                      &trans  &trans     &mkp MCLK       &trans     &kp F12
+&trans      &trans              &kp LC(UP_ARROW)  &trans         &trans  &trans      &trans  &trans  &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &trans
+&trans      &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &trans  &trans      &trans  &trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &trans
+&trans      &trans              &trans            &trans         &trans  &trans      &trans  &trans                                        &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -90,10 +90,10 @@
 
         number {
             bindings = <
-&kp SQT               &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS                                          &kp RIGHT_PARENTHESIS  &none               &none               &none                &trans
-&kp GRAVE             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACE        &kp LC(LA(KP_NUMBER_0))      &kp MINUS  &kp RIGHT_BRACE        &none               &kp LS(UP_ARROW)    &none                &trans
-&kp NON_US_BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET      &kp EQUAL                    &kp PLUS   &kp RIGHT_BRACKET      &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans
-&trans                &trans        &trans        &trans        &trans                &trans                       &trans     &trans                                                                              &trans
+&kp SQT               &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS                                       &kp RIGHT_PARENTHESIS  &none               &none               &none                &trans
+&kp GRAVE             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACE        &kp LC(LA(KP_NUMBER_0))      &trans  &kp RIGHT_BRACE        &none               &kp LS(UP_ARROW)    &none                &trans
+&kp NON_US_BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET      &trans                       &trans  &kp RIGHT_BRACKET      &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans
+&trans                &trans        &trans        &trans        &trans                &trans                       &trans  &trans                                                                              &trans
             >;
         };
 
