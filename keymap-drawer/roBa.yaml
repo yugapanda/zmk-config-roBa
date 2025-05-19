@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - {t: B, h: bluetooth}
-  - Sft+Gui+S
+  - ''
   - /
   - N
   - M
@@ -43,7 +43,7 @@ layers:
   - {t: TAB, h: cursor}
   - BACKSPACE
   - {t: ENTER, h: number}
-  - {t: default_layer_mac, h: toggle}
+  - Gui+Sft+S
   default_layer_mac:
   - Q
   - W
@@ -72,7 +72,7 @@ layers:
   - C
   - V
   - {t: B, h: bluetooth}
-  - Sft+Gui+5
+  - ''
   - /
   - N
   - M
@@ -87,7 +87,7 @@ layers:
   - {t: TAB, h: default_layer_win}
   - BACKSPACE
   - {t: ENTER, h: number}
-  - {t: ▽, type: trans}
+  - Gui+Sft+5
   cursor:
   - ESCAPE
   - {t: ▽, type: trans}
@@ -101,7 +101,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UP ARROW
+  - Ctl+UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,9 +112,9 @@ layers:
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN
-  - RIGHT
+  - Ctl+LEFT ARROW
+  - Ctl+DOWN
+  - Ctl+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -149,7 +149,7 @@ layers:
   - '6'
   - '{'
   - Ctl+Alt+KP 0
-  - '-'
+  - {t: ▽, type: trans}
   - '}'
   - ''
   - Sft+UP ARROW
@@ -160,8 +160,8 @@ layers:
   - '2'
   - '3'
   - '['
-  - '='
-  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ']'
   - Sft+LEFT ARROW
   - Sft+DOWN ARROW
