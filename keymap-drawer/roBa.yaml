@@ -1,49 +1,5 @@
 layout: {zmk_keyboard: roBa}
 layers:
-  default_layer_win:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - S
-  - D
-  - F
-  - G
-  - '&mkp MCLK'
-  - ;
-  - H
-  - J
-  - K
-  - L
-  - '-'
-  - Z
-  - X
-  - C
-  - V
-  - {t: B, h: bluetooth}
-  - ''
-  - /
-  - N
-  - M
-  - ','
-  - .
-  - '='
-  - LEFT SHIFT
-  - {t: '0', h: LEFT ALT}
-  - LEFT GUI
-  - {t: CAPSLOCK, h: LEFT CONTROL}
-  - {t: SPACE, h: cursor}
-  - {t: TAB, h: cursor}
-  - BACKSPACE
-  - {t: ENTER, h: number}
-  - Gui+Sft+S
   default_layer_mac:
   - Q
   - W
@@ -88,6 +44,50 @@ layers:
   - BACKSPACE
   - {t: ENTER, h: number}
   - Gui+Sft+5
+  default_layer_win:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - '&mkp MCLK'
+  - ;
+  - H
+  - J
+  - K
+  - L
+  - '-'
+  - Z
+  - X
+  - C
+  - V
+  - {t: B, h: bluetooth}
+  - ''
+  - /
+  - N
+  - M
+  - ','
+  - .
+  - '='
+  - LEFT SHIFT
+  - {t: '0', h: LEFT ALT}
+  - LEFT GUI
+  - {t: CAPSLOCK, h: LEFT CONTROL}
+  - {t: SPACE, h: cursor}
+  - {t: TAB, h: cursor, type: held}
+  - BACKSPACE
+  - {t: ENTER, h: number}
+  - Gui+Sft+S
   cursor:
   - ESCAPE
   - {t: ▽, type: trans}
