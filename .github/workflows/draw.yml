@@ -1,9 +1,13 @@
+name: "Draw Keymap"
+
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "config/roBa.keymap"
-      - "keymap_drawer.config.yaml"
+  # push時に自動で実行する場合は、以下のコメントアウトを外す
+  # push:
+  #   paths:
+  #     - "config/roBa.keymap"
+  #     - "keymap_drawer.config.yaml"
+  #     - "config/roBa.dtsi"
 
 jobs:
   draw:
@@ -11,13 +15,10 @@ jobs:
     permissions:
       contents: write
     with:
-      commit_message: "[Draw] ${{ github.event.head_commit.message }}"
+      commit_message: "[Draw] ${{ github.event.before_commit.message }}"
       amend_commit: false
-      install_branch: "main"
       keymap_patterns: "config/*.keymap"
       json_path: "config"
       config_path: "keymap_drawer.config.yaml" # config file, ignored if not exists
       output_folder: "keymap-drawer"
       destination: "both"
-      parse_args: ""  # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
-      draw_args: ""   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
