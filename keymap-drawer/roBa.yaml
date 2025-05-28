@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - '&mkp MCLK'
+  - {t: default_layer_win, h: toggle}
   - ;
   - H
   - J
@@ -82,7 +82,7 @@ layers:
   - LEFT SHIFT
   - {t: '0', h: LEFT ALT}
   - LEFT GUI
-  - {t: CAPSLOCK, h: LEFT CONTROL}
+  - {t: Alt+~, h: LEFT CONTROL}
   - {t: SPACE, h: cursor}
   - {t: TAB, h: cursor, type: held}
   - BACKSPACE
@@ -148,7 +148,7 @@ layers:
   - '5'
   - '6'
   - '{'
-  - Ctl+Alt+KP 0
+  - ''
   - {t: ▽, type: trans}
   - '}'
   - ''
@@ -160,7 +160,7 @@ layers:
   - '2'
   - '3'
   - '['
-  - {t: ▽, type: trans}
+  - {t: default_layer_win, h: toggle}
   - {t: ▽, type: trans}
   - ']'
   - Sft+LEFT ARROW
