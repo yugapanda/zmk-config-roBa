@@ -38,10 +38,10 @@
 
         default_layer_mac {
             bindings = <
-&kp Q           &kp W                  &kp E             &kp R              &kp T                                      &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S                  &kp D             &kp F              &kp G        &mkp MCLK      &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z           &kp X                  &kp C             &kp V              &lt 4 B      &none          &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp EQUAL
-&kp LEFT_SHIFT  &mt LEFT_ALT NUMBER_0  &kp LEFT_CONTROL  &mt LEFT_GUI CLCK  &lt 2 SPACE  &lt 1 TAB      &kp BACKSPACE  &lt 3 ENTER                             &kp LG(LS(N5))
+&kp Q           &kp W                  &kp E             &kp R                             &kp T                                      &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A           &kp S                  &kp D             &kp F                             &kp G        &mkp MCLK      &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z           &kp X                  &kp C             &kp V                             &lt 4 B      &none          &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp EQUAL
+&kp LEFT_SHIFT  &mt LEFT_ALT NUMBER_0  &kp LEFT_CONTROL  &mt LEFT_GUI LANG_ZENKAKUHANKAKU  &lt 2 SPACE  &lt 1 TAB      &kp BACKSPACE  &lt 3 ENTER                             &kp LG(LS(N5))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -63,7 +63,7 @@
 &kp ESCAPE  &trans              &trans            &trans         &trans                      &trans  &trans     &mkp MCLK       &trans     &kp F12
 &trans      &trans              &kp LC(UP_ARROW)  &trans         &trans  &trans      &trans  &trans  &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &trans
 &trans      &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &trans  &trans      &trans  &trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &trans
-&trans      &trans              &trans            &trans         &trans  &trans      &trans  &trans                                        &trans
+&trans      &trans              &trans            &kp CAPS       &trans  &trans      &trans  &trans                                        &trans
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
