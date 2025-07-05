@@ -84,7 +84,7 @@ layers:
   - LEFT GUI
   - {t: LANGUAGE 2, h: LEFT CONTROL}
   - {t: SPACE, h: cursor}
-  - {t: TAB, h: cursor}
+  - TAB
   - BACKSPACE
   - {t: ENTER, h: number}
   - Gui+Sft+S
@@ -194,8 +194,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mac_setup'
+  - '&win_setup'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
