@@ -1,5 +1,4 @@
 #include "roBa.dtsi"
-#include <input/processors.dtsi>
 
 &default_transform {
     col-offset = <6>;
@@ -15,19 +14,11 @@
             ;
 };
 
-&zip_temp_layer {
-    excluded-positions = <
-        18 /* J */
-    >; // このキーを押してもマウスレイヤーに留まり続ける
-    require-prior-idle-ms = <10>; // キー入力中のオートマウスレイヤー誤爆防止
-};
-
 / {
     trackball_listener {
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 2 250>; // 2がマウスレイヤー
     };
 };
 
