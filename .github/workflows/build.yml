@@ -1,8 +1,10 @@
+name: "build user config"
 on:
   workflow_dispatch:
   push:
     paths:
       - "config/**"
+      - "boards/shields/**"
 
 jobs:
   build:
