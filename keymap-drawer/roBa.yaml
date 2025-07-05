@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LCTRL}
   - S
   - D
   - F
@@ -40,7 +40,7 @@ layers:
   - LEFT CONTROL
   - {t: LANGUAGE 2, h: LEFT GUI}
   - {t: SPACE, h: cursor}
-  - {t: TAB, h: default_layer_win}
+  - TAB
   - BACKSPACE
   - {t: ENTER, h: number}
   - Gui+Sft+5
@@ -84,7 +84,7 @@ layers:
   - LEFT GUI
   - {t: LANGUAGE 2, h: LEFT CONTROL}
   - {t: SPACE, h: cursor}
-  - {t: TAB, h: cursor, type: held}
+  - {t: TAB, h: cursor}
   - BACKSPACE
   - {t: ENTER, h: number}
   - Gui+Sft+S
