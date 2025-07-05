@@ -71,10 +71,10 @@
 
         number {
             bindings = <
-&kp SQT               &kp N7        &kp N8        &kp N9          &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &none               &none               &none                &trans
-&kp GRAVE             &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp LEFT_BRACE        &none       &trans  &kp RIGHT_BRACE        &none               &kp LS(UP_ARROW)    &none                &trans
-&kp NON_US_BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp LEFT_BRACKET      &tog 1      &trans  &kp RIGHT_BRACKET      &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans
-&trans                &trans        &trans        &kp LANGUAGE_1  &trans                &trans      &trans  &trans                                                                              &trans
+&kp SQT        &kp N7        &kp N8        &kp N9          &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &none               &none               &none                &trans
+&kp GRAVE      &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp LEFT_BRACE        &none       &trans  &kp RIGHT_BRACE        &none               &kp LS(UP_ARROW)    &none                &trans
+&kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp LEFT_BRACKET      &tog 1      &trans  &kp RIGHT_BRACKET      &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans
+&trans         &trans        &trans        &kp LANGUAGE_1  &trans                &trans      &trans  &trans                                                                              &trans
             >;
         };
 
