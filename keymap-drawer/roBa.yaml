@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - {t: B, h: bluetooth}
-  - ''
+  - CAPSLOCK
   - /
   - N
   - M
@@ -38,7 +38,7 @@ layers:
   - LEFT SHIFT
   - {t: '0', h: LEFT ALT}
   - LEFT CONTROL
-  - LEFT GUI
+  - {t: LANGUAGE 2, h: LEFT GUI}
   - {t: SPACE, h: cursor}
   - {t: TAB, h: default_layer_win}
   - BACKSPACE
@@ -82,7 +82,7 @@ layers:
   - LEFT SHIFT
   - {t: '0', h: LEFT ALT}
   - LEFT GUI
-  - LEFT CONTROL
+  - {t: LANGUAGE 2, h: LEFT CONTROL}
   - {t: SPACE, h: cursor}
   - {t: TAB, h: cursor, type: held}
   - BACKSPACE
@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CAPSLOCK
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LANGUAGE 1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
