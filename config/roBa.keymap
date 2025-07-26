@@ -74,10 +74,10 @@
 
         default_layer_mac {
             bindings = <
-&kp Q           &kp W         &kp E             &kp R                    &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp P
-&mt LCTRL A     &kp S         &kp D             &kp F                    &kp G        &mkp MCLK         &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z           &kp X         &kp C             &kp V                    &lt 4 B      &kp CAPSLOCK      &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp EQUAL
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANGUAGE_2  &lt 2 SPACE  &kp TAB           &kp BACKSPACE  &lt 3 ENTER                             &kp LG(LS(N5))
+&kp Q           &kp W         &kp E             &kp R                    &kp T                                      &kp Y        &kp U  &kp I      &kp O    &kp P
+&mt LCTRL A     &kp S         &kp D             &kp F                    &kp G        &mkp MCLK      &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z           &kp X         &kp C             &kp V                    &lt 4 B      &none          &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp EQUAL
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANGUAGE_2  &lt 2 SPACE  &kp TAB        &kp BACKSPACE  &lt 3 ENTER                             &kp LG(LS(N5))
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
@@ -96,10 +96,10 @@
 
         cursor {
             bindings = <
-&kp ESCAPE  &trans              &trans            &trans         &trans                      &trans  &trans     &mkp MCLK       &trans     &kp F12
-&trans      &trans              &kp LC(UP_ARROW)  &trans         &trans  &trans      &trans  &trans  &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &trans
-&trans      &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &trans  &trans      &trans  &trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &trans
-&trans      &trans              &trans            &trans         &trans  &trans      &trans  &trans                                        &trans
+&kp ESCAPE  &trans              &trans            &trans         &trans                            &trans  &trans     &mkp MCLK       &trans     &kp F12
+&trans      &trans              &kp LC(UP_ARROW)  &trans         &trans  &trans            &trans  &trans  &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &trans
+&trans      &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &trans  &kp CAPSLOCK      &trans  &trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &trans
+&trans      &trans              &trans            &trans         &trans  &trans            &trans  &trans                                        &trans
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
