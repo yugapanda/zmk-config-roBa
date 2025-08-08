@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - {t: B, h: bluetooth}
-  - CAPSLOCK
+  - ''
   - /
   - N
   - M
@@ -36,7 +36,7 @@ layers:
   - .
   - '='
   - LEFT SHIFT
-  - {t: '0', h: LEFT ALT}
+  - LEFT ALT
   - LEFT CONTROL
   - {t: LANGUAGE 2, h: LEFT GUI}
   - {t: SPACE, h: cursor}
@@ -80,7 +80,7 @@ layers:
   - .
   - '='
   - LEFT SHIFT
-  - {t: '0', h: LEFT ALT}
+  - LEFT ALT
   - LEFT GUI
   - {t: LANGUAGE 2, h: LEFT CONTROL}
   - {t: SPACE, h: cursor}
@@ -116,7 +116,7 @@ layers:
   - Ctl+DOWN
   - Ctl+RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -147,10 +147,10 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '{'
+  - '['
   - ''
   - {t: ▽, type: trans}
-  - '}'
+  - ']'
   - ''
   - Sft+UP ARROW
   - ''
@@ -159,16 +159,16 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '['
+  - '{'
   - {t: default_layer_win, h: toggle}
   - {t: ▽, type: trans}
-  - ']'
+  - '}'
   - Sft+LEFT ARROW
   - Sft+DOWN ARROW
   - Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   - LANGUAGE 1
   - {t: ▽, type: trans}
