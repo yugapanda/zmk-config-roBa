@@ -98,7 +98,7 @@
             bindings = <
 &kp ESCAPE  &trans              &trans            &trans         &trans                            &trans    &kp UP_ARROW  &mkp MCLK       &trans     &kp F12
 &trans      &trans              &kp LC(UP_ARROW)  &trans         &trans  &trans            &trans  &kp LEFT  &kp DOWN      &kp RIGHT       &mkp RCLK  &trans
-&trans      &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &trans  &kp CAPSLOCK      &trans  &trans    &kp LEFT      &kp DOWN_ARROW  &kp RIGHT  &trans
+&trans      &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &trans  &kp CAPSLOCK      &trans  &trans    &none         &kp DOWN_ARROW  &kp RIGHT  &trans
 &trans      &trans              &trans            &trans         &trans  &trans            &trans  &trans                                             &trans
             >;
 
