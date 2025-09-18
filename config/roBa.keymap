@@ -31,14 +31,7 @@
 &mkp_input_listener { input-processors = <&zip_temp_layer 2 250>; };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        ESC-TILDE {
-            bindings = <&kp TILDE>;
-            key-positions = <42 0>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     behaviors {
         encoder_msc_up_down: encoder_msc_up_down {
