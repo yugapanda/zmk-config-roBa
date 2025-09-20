@@ -88,7 +88,7 @@
 &kp ESCAPE      &trans              &trans            &trans         &trans                                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UP_ARROW   &kp RIGHT_BRACKET  &kp BACKSPACE
 &kp TAB         &trans              &kp LC(UP_ARROW)  &trans         &trans  &trans            &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp LEFT               &kp DOWN       &kp RIGHT          &kp ENTER
 &trans          &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &trans  &kp CAPSLOCK      &kp LEFT_BRACKET  &kp MINUS             &kp EQUAL              &kp RS(MINUS)  &kp RS(PLUS)       &kp RIGHT_SHIFT
-&kp LEFT_SHIFT  &trans              &trans            &trans         &mo 6   &trans            &trans            &trans                                                                         &trans
+&kp LEFT_SHIFT  &trans              &trans            &trans         &mo 6   &trans            &trans            &trans                                                                         &mo 4
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
