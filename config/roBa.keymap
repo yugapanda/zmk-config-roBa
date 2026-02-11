@@ -134,7 +134,7 @@
         layer_6 {
             bindings = <
 &kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR                      &kp PERCENT  &kp LCTRL  &kp AMPERSAND  &kp ASTERISK  &trans
-&trans     &trans           &trans       &trans    &trans      &trans      &trans  &trans       &trans     &trans         &trans        &trans
+&trans     &kp A            &trans       &trans    &trans      &trans      &trans  &trans       &trans     &trans         &trans        &trans
 &trans     &trans           &trans       &trans    &trans      &trans      &trans  &trans       &trans     &trans         &trans        &trans
 &trans     &trans           &trans       &trans    &trans      &trans      &trans  &trans                                               &trans
             >;
