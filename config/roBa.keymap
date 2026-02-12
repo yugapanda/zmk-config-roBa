@@ -106,10 +106,10 @@
 
         number {
             bindings = <
-&kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp N5                                &kp NUMBER_6     &kp NUMBER_7        &kp NUMBER_8        &kp NUMBER_9         &kp NUMBER_0
-&kp GRAVE      &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp LEFT_BRACKET  &none       &trans  &kp HOME         &mkp LCLK           &mkp RCLK           &kp END              &trans
-&kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp LEFT_BRACE    &tog 0      &trans  &kp RIGHT_BRACE  &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans
-&trans         &kp N0        &trans        &kp LANGUAGE_1  &trans            &trans      &trans  &trans                                                                        &trans
+&kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                &kp NUMBER_6     &kp NUMBER_7        &kp NUMBER_8        &kp NUMBER_9         &kp NUMBER_0
+&kp GRAVE      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET  &none       &trans  &kp HOME         &mkp LCLK           &mkp RCLK           &kp END              &trans
+&kp BACKSLASH  &kp NUMBER_1  &mo 5         &mo 5         &mo 5             &tog 0      &trans  &kp RIGHT_BRACE  &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans
+&trans         &kp N0        &trans        &none         &trans            &trans      &trans  &trans                                                                        &trans
             >;
         };
 
@@ -124,10 +124,10 @@
 
         Functions {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                      &kp F6  &kp F7  &kp F8  &kp F9  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp F1  &kp F2  &kp F3  &kp F4          &kp F5                      &kp F6  &kp F7  &kp F8  &kp F9  &kp F12
+&trans  &trans  &trans  &trans          &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
